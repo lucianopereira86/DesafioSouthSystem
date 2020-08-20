@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DesafioSouthSystem.WebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:DesafioSouthSystem.WebAPI.Controllers.FileController.Upload(DesafioSouthSystem.WebAPI.Models.FileUploadCommandVM)">
+            <summary>
+            Upload a text file (.txt)
+            </summary>
+            <param name="commandVM" cref="T:DesafioSouthSystem.WebAPI.Models.FileUploadCommandVM"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DesafioSouthSystem.WebAPI.Controllers.FileController.Download(DesafioSouthSystem.WebAPI.Models.FileDownloadQueryVM)">
+            <summary>
+            Download file by its name
+            </summary>
+            <param name="commandVM" cref="T:DesafioSouthSystem.WebAPI.Models.FileDownloadQueryVM"></param>
+            <returns></returns>
+        </member>
+        <member name="P:DesafioSouthSystem.WebAPI.Models.FileDownloadQueryVM.FileName">
+            <summary>
+            File name
+            </summary>
+        </member>
+        <member name="P:DesafioSouthSystem.WebAPI.Models.FileUploadCommandVM.File">
+            <summary>
+            File content
+            </summary>
+        </member>
+    </members>
+</doc>

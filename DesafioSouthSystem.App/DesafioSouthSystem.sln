@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioSouthSystem.App", "DesafioSouthSystem.App.csproj", "{5E4F8B1C-6EC4-4740-9A19-2C6B235D32AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioSouthSystem.Domain", "..\DesafioSouthSystem.Domain\DesafioSouthSystem.Domain.csproj", "{150BBB62-2D45-45E1-9D69-F0F4E48591B8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioSouthSystem.Tests", "..\DesafioSouthSystem.Tests\DesafioSouthSystem.Tests.csproj", "{EEE0CC42-A28F-48E0-BAB9-D4FF576A1622}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioSouthSystem.WebAPI", "..\DesafioSouthSystem.WebAPI\DesafioSouthSystem.WebAPI.csproj", "{C5524234-6DE9-4999-B0C6-8726B865D24F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioSouthSystem.Shared", "..\DesafioSouthSystem.Shared\DesafioSouthSystem.Shared.csproj", "{8A758686-64F8-4C44-AAA5-D0883585D919}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E4F8B1C-6EC4-4740-9A19-2C6B235D32AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E4F8B1C-6EC4-4740-9A19-2C6B235D32AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E4F8B1C-6EC4-4740-9A19-2C6B235D32AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E4F8B1C-6EC4-4740-9A19-2C6B235D32AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{150BBB62-2D45-45E1-9D69-F0F4E48591B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{150BBB62-2D45-45E1-9D69-F0F4E48591B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{150BBB62-2D45-45E1-9D69-F0F4E48591B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{150BBB62-2D45-45E1-9D69-F0F4E48591B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEE0CC42-A28F-48E0-BAB9-D4FF576A1622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEE0CC42-A28F-48E0-BAB9-D4FF576A1622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEE0CC42-A28F-48E0-BAB9-D4FF576A1622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEE0CC42-A28F-48E0-BAB9-D4FF576A1622}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5524234-6DE9-4999-B0C6-8726B865D24F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5524234-6DE9-4999-B0C6-8726B865D24F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5524234-6DE9-4999-B0C6-8726B865D24F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5524234-6DE9-4999-B0C6-8726B865D24F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A758686-64F8-4C44-AAA5-D0883585D919}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A758686-64F8-4C44-AAA5-D0883585D919}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A758686-64F8-4C44-AAA5-D0883585D919}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A758686-64F8-4C44-AAA5-D0883585D919}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96B53305-4D39-4CB8-87BB-F08327997EB5}
+	EndGlobalSection
+EndGlobal
